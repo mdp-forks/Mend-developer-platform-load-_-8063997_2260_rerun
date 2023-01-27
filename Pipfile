@@ -6,6 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-numpy = {version = "*", sys_platform = "!= 'darwin'"}
+numpy = {version = "1.21.0", sys_platform = "!= 'darwin'"}
 MacFSEvents = {version = "~=0.8.1",sys_platform = "== 'darwin'"}
 
